@@ -1,3 +1,4 @@
 import React from "react"
+import HeaderCubo from "../components/HeaderCubo"
 
-export default () => <div>Hello world!</div>
+export default () => <HeaderCubo />
