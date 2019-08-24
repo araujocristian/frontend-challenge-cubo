@@ -1,0 +1,8 @@
+.button-cubo {
+  display: block;
+  background-color: var(--color-first);
+  color: var(--color-zero);
+  border-radius: var(--size-radius);
+  cursor: pointer;
+  text-transform: uppercase;
+}
