@@ -7,10 +7,13 @@ import "../styles/elements/base.css"
 
 import HeaderCubo from "../components/HeaderCubo"
 import CardCubo from "../objects/CardCubo"
+import TitleCubo from "../objects/TitleCubo"
 
 export default () => (
   <>
     <HeaderCubo />
-    <CardCubo />
+    <CardCubo>
+      <TitleCubo content="Lorem ipsum dolor" />
+    </CardCubo>
   </>
 )
