@@ -6,5 +6,11 @@ import "../styles/generic/reset.css"
 import "../styles/elements/base.css"
 
 import HeaderCubo from "../components/HeaderCubo"
+import CardCubo from "../objects/CardCubo"
 
-export default () => <HeaderCubo />
+export default () => (
+  <>
+    <HeaderCubo />
+    <CardCubo />
+  </>
+)
