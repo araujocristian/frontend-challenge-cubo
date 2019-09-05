@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./style.css"
+import "./styles.css"
 
 const CardCubo = ({ children }) => (
   <article className="card-cubo">{children}</article>

@@ -8,12 +8,14 @@ import "../styles/elements/base.css"
 import HeaderCubo from "../components/HeaderCubo"
 import CardCubo from "../objects/CardCubo"
 import TitleCubo from "../objects/TitleCubo"
+import DescriptionCubo from "../objects/DescriptionCubo"
 
 export default () => (
   <>
     <HeaderCubo />
     <CardCubo>
       <TitleCubo content="Lorem ipsum dolor" />
+      <DescriptionCubo content="Aenean ultrices ultricies vulputate. Donec ut pulvinar ipsum. Maecenas tincidunt lorem at enim pharetra hendrerit vivamus in elemene" />
     </CardCubo>
   </>
 )
